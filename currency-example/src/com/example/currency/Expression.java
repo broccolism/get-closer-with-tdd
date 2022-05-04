@@ -1,8 +1,8 @@
 package com.example.currency;
 
 /**
- * @author 사용자명 (메일계정@navercorp.com)
+ * @author 사용자명 (메일계정@)
  */
 public interface Expression {
-    Money reduce(String to);
+    Money reduce(Bank bank, String to);
 }

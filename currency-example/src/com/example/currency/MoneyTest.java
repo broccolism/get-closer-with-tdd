@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 
 /**
- * @author 사용자명 (메일계정@navercorp.com)
+ * @author 사용자명 (메일계정@)
  */
 public class MoneyTest {
     @Test

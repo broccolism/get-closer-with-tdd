@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 
 /**
- * @author 손영인 (youngin.son@navercorp.com)
+ * @author 손영인 (youngin.son@)
  */
 public class DollarTest {
 

@@ -1,7 +1,7 @@
 package com.example.currency;
 
 /**
- * @author 사용자명 (메일계정@navercorp.com)
+ * @author 사용자명 (메일계정@)
  */
 class Money implements Expression {
     protected int amount;
@@ -38,8 +38,9 @@ class Money implements Expression {
         return new Sum(this, addend);
     }
 
-    public Money reduce(String to) {
-        return this;
+    public Money reduce(Bank bank, String to) {
+        int rate = bank.rate(currency, to);
+        return new Money(amount / rate, to);
     }
 
     public String toString() {
