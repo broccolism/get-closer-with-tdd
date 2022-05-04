@@ -18,3 +18,5 @@
 - [ ] $5 + $5에서 Money 반환하기
 - [x] Bank.reduce(Money)
 - [x] Reduce(Bank, String)
+- [x] Sum.plus
+- [ ] Expression.times
